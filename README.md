@@ -40,7 +40,7 @@ Exploratory Data Analysis (EDA) highlights distinct keyword frequencies per clas
    cd indonesian-sms-spam-detection
 ```
 
-2. **Install dependencies:**
+2. Install dependencies:
    Make sure you are running a Python 3.12+ environment.
    ```bash
 pip install -r requirements.txt
