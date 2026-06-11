@@ -15,11 +15,11 @@ In industries like Banking (e-commerce internal risk, transaction security) and 
 Source : https://raw.githubusercontent.com/ksnugroho/klasifikasi-spam-sms/master/data/dataset_sms_spam_v1.csv
 The dataset consists of thousands of Indonesian short messages labeled into 3 classes:
 
-0 (Normal): Regular person-to-person SMS.
+* 0 (Normal): Regular person-to-person SMS.
 
-1 (Fraud): Phishing, fake lottery winnings, cash-loan scams, etc.
+* 1 (Fraud): Phishing, fake lottery winnings, cash-loan scams, etc.
 
-2 (Promo): Official provider advertisements, restaurant discounts, etc.
+* 2 (Promo): Official provider advertisements, restaurant discounts, etc.
 
 Exploratory Data Analysis (EDA) highlights distinct keyword frequencies per class, visualized cleanly through custom-masked WordClouds in the baseline notebook.
 
@@ -32,7 +32,7 @@ Exploratory Data Analysis (EDA) highlights distinct keyword frequencies per clas
 `Data Loading` ➔ `Tokenization & Formatting (AutoTokenizer)` ➔ `Contextual Embedding Extraction` ➔ `Fine-Tuning Architecture` ➔ `Feed-Forward Neural Network (Classification Layer)` ➔ `PyTorch Optimization Loop`
 
 ---
-## 🚀 Installation & Setup
+## Installation & Setup
 
 **1. Clone the repository:**
    ```bash
@@ -60,10 +60,10 @@ Exploratory Data Analysis (EDA) highlights distinct keyword frequencies per clas
 ```text
 indonesian-sms-spam-detection/
 ├── assets/
-│   └── pipeline_bert.png          	# Architecture diagrams
+│   └── pipeline_bert.png          	   # Architecture diagrams
 ├── notebooks/
 │   ├── 01_baseline_tfidf_svm.ipynb 	# EDA, WordCloud, TF-IDF + Chi-Square + SVM Pipeline
 │   └── 02_advanced_indobert.ipynb  	# PyTorch Fine-Tuning IndoBERT Pipeline
-├── requirements.txt               	# Project dependencies
-└── README.md                      	# This file
+├── requirements.txt               	   # Project dependencies
+└── README.md                      	   # This file
 ```
