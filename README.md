@@ -34,19 +34,19 @@ Exploratory Data Analysis (EDA) highlights distinct keyword frequencies per clas
 ---
 ## 🚀 Installation & Setup
 
-1. **Clone the repository:**
+**1. Clone the repository:**
    ```bash
    git clone https://github.com/okeypeeps/indonesian-sms-spam-detection.git
    cd indonesian-sms-spam-detection
-```
+   ```
 
-2. Install dependencies:
+**2. Install dependencies:**
    Make sure you are running a Python 3.12+ environment.
    ```bash
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
+   ```
 
-3. **Required packages include:**
+**3. Required packages include:**
    * `torch`
    * `transformers`
    * `sentencepiece`
